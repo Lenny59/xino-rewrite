@@ -48,5 +48,5 @@ body:
 
   - type: textarea
     attributes:
-      label: Additional Context
-      description: If there is anything else to say, please do so here.
+      label: Zusätzliche Informationen
+      description: Falls du weitere Informationen hast, die zum Beheben relevant sein könnten, gebe sie uns hier bekannt.

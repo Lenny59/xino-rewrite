@@ -1,0 +1,40 @@
+name: Rechtschreibfehler bei Xino Canary
+description: Schlage ein Feature vor
+labels: [Ungeklärter Rechtschreibfehler, Canary]
+body:
+  - type: input
+    attributes:
+      label: Wo ist der Rechtschreibfehler?
+      description: Antwort welches Commands? Antwort von einem bestimmten System? Etc...
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Markiere den Fehler
+      description: Lade zum Beispiel ein Bild hoch, wo der Fehler markiert ist.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Wie müsste es eigentlich heißen?
+      description: Nenne bitte die richtige Version.
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      options:
+        - label: Ich habe nach bereits vorhandenen Rechtschreibfehlern gesucht.
+          required: true
+        - label: Ich habe alle mir bekannten Informationen weitergegeben.
+          required: true
+        - label: Ich habe klar gemacht, was falsch ist, und wie es richtig ist.
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Zusätzliche Informationen
+      description: Falls du weitere Informationen hast gebe sie uns hier bekannt.

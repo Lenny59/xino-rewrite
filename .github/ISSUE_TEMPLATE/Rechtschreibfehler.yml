@@ -1,5 +1,5 @@
 name: Rechtschreibfehler bei Xino Canary
-description: Schlage ein Feature vor
+description: Melde einen Rechtschreibfehler
 labels: [Ungeklärter Rechtschreibfehler, Canary]
 body:
   - type: input

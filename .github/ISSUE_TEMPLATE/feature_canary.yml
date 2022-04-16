@@ -1,0 +1,47 @@
+name: Featureanfrage für Xino Canary
+description: Schlage ein Feature vor
+labels: [Featureanfrage, Canary]
+body:
+  - type: input
+    attributes:
+      label: Beschreibung
+      description: Eine einfache Beschreibung des Features
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Mögliche Commands
+      description: Welche Commands werden hierfür unter anderem benötigt?
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Aktuelle Möglichkeit
+      description: Falls es aktuell ein Umweg gibt, um diese Funktion zu erreichen, kannst du sie hier beschreiben.
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: Beispiel
+      description: Falls du das Feature bei einem anderen Bot gesehen hast kannst du hier den Bot angeben, das Feature nennen und Bilder anhängen.
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      options:
+        - label: Ich habe nach bereits vorhandenen Featureanfragen gesucht.
+          required: true
+        - label: Ich habe alle mir bekannten Informationen weitergegeben.
+          required: true
+        - label: Falls ich das Feature woanders gesehen habe, habe ich Bilder angehangen.
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Zusätzliche Informationen
+      description: Falls du weitere Informationen hast gebe sie uns hier bekannt.
